@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TravelWeb/static/css/main.9d58b659.css",
-    "main.js": "/TravelWeb/static/js/main.749f3758.js",
+    "main.js": "/TravelWeb/static/js/main.9439c551.js",
     "static/js/787.cda612ba.chunk.js": "/TravelWeb/static/js/787.cda612ba.chunk.js",
     "static/media/Bali_Indonesia.mp4": "/TravelWeb/static/media/Bali_Indonesia.82796123e68ba2b7a153.mp4",
     "static/media/Terraces_VietNam.jpg": "/TravelWeb/static/media/Terraces_VietNam.f1524241b635e21cfc5b.jpg",
@@ -21,11 +21,11 @@
     "static/media/slick.woff": "/TravelWeb/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/TravelWeb/index.html",
     "main.9d58b659.css.map": "/TravelWeb/static/css/main.9d58b659.css.map",
-    "main.749f3758.js.map": "/TravelWeb/static/js/main.749f3758.js.map",
+    "main.9439c551.js.map": "/TravelWeb/static/js/main.9439c551.js.map",
     "787.cda612ba.chunk.js.map": "/TravelWeb/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d58b659.css",
-    "static/js/main.749f3758.js"
+    "static/js/main.9439c551.js"
   ]
 }
