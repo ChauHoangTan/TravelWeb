@@ -1,0 +1,44 @@
+#home{
+    width: 100%;
+    
+    .video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .introduce{
+        position: absolute;
+        top: 20vh;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        text-align: center;
+        .text-light{
+            text-shadow: 2px 2px rgba(24, 24, 24, 0.425);
+        }
+
+        .btnStart{
+            background-color: #ff811a;
+            border-radius: 20px;
+            border-color: #ff811a;
+            transition: 0.2s ease;
+            
+        }
+
+        .btnStart:hover{
+            transform: scale(1.1);
+        }
+
+        .famousPlaces{
+            margin-top: 20vh;
+            .dash{
+                flex: 1;
+                display: inline-block;
+                height: 3px;
+                background-color: rgba(255, 255, 255, 0.816);
+                box-shadow: 1px 1px rgb(158, 158, 158);
+            }
+        }
+        
+    }
+}
