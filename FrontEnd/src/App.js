@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route, HashRouter} from "react-router-dom"
 import Home from "./page/home/Home"
-import Search from "./page/search/Search"
-import Product from "./page/product/Product"
+import Search from "./page/search/SearchPage"
+import Product from "./page/tourDetails/TourDetails"
 import Booking from "./page/booking/Booking"
 import BookingManagement from "./page/bookingManagement/BookingManagement"
 import Contact from "./page/contact/Contact"
@@ -13,12 +13,12 @@ import Layout from "./page/layout/Layout"
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path='/search' element={<Search/>}/>
-          <Route path='/product/:id' element={<Product/>}/>
+          <Route path='/tourDetails/:id' element={<Product/>}/>
           <Route path='/booking' element={<Booking/>}/>
           <Route path='/bookingManagement' element={<BookingManagement/>}/>
           <Route path='/contact' element={<Contact/>}/>
@@ -27,7 +27,7 @@ function App() {
           <Route path='/signup' element={<Signup/>}/>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

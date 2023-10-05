@@ -1,8 +1,41 @@
 
 #carouselSlider{
     width: 60vw;
-    
-
+    position: relative;
+    .slick-slider{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .custom-prev-arrow{
+            position: absolute;
+            left: -40px;
+            z-index: 1;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 2rem;
+            transition: 0.2s ease;
+        }  
+        .custom-prev-arrow:hover{
+            transform: scale(1.4);
+        }  
+        .custom-next-arrow{
+            position: absolute;
+            right: -40px;
+            z-index: 1;
+            height: 96%;
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 2rem;
+            transition: 0.2s ease;
+        }    
+        .custom-next-arrow:hover{
+            transform: scale(1.4);
+        }  
+        
+    }
         
     .containerImg{
         height: 12.5vw;

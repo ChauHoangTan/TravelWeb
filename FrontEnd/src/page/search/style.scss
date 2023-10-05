@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+$main-color: #ff811a;
+$text-title-color: #832800;
+
+#searchPage{
+    width: 100%;
+    padding-top: 20vh;
+
+    font-family: 'Arima', cursive;
+    background-color: #dfe0df9d;
+    
+    .title{
+        color: $text-title-color;
+        font-weight: 600;
+        font-size: 1.5rem;
+
+    }
+    
+    .filterAndResults{
+        margin-top: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        >div{
+            width: 80%;
+            display: grid;
+            grid-template-columns: 300px auto;
+          
+            .filter{
+    
+                >div{
+                    padding: 20px;
+                    margin-right: 20px;
+                    background-color: #ffffff;
+                    border-radius: 10px;
+                    box-shadow: 2px 2px rgb(182, 191, 197);
+                    margin-top: 20px;
+                    >span{
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                    >div{
+                        font-weight: 500;
+                        display: flex;
+                        align-items: center;
+                        input{
+                            width: 20px;
+                            height: 20px;
+                            margin: 10px 10px;
+                        }
+                    }
+                }
+            }
+
+            .results{
+                .tour{
+                    display: grid;
+                    grid-template-columns: 25% auto;
+                    grid-gap: 10px;
+                    margin-top: 20px;
+                    padding: 20px;
+                    background-color: white;
+                    border-radius: 10px;
+                    align-items: stretch;
+                    grid-template-areas:
+                        "img info"; /* Xác định vùng grid cho .img và .info */
+                    transition: 0.2s ease;
+                    cursor: pointer;
+                    >img{
+                        width: 100%;
+                        
+                        max-height: 100%; /* Ảnh co dãn để vừa với chiều cao của .info */
+                        object-fit: cover; /* Đảm bảo hình ảnh vừa với phần tử img */
+                        grid-area: img; /* Xác định vùng grid của .img */
+                    }
+                    .info{
+                        grid-area: info; /* Xác định vùng grid của .info */
+                        padding: 10px; /* Thêm khoảng cách bên trong .info nếu cần */
+                        background-color: #f1f1f1; /* Màu nền của .info (tuỳ chọn) */
+                        position: relative;
+
+                        >div{
+                            margin-top: 10px;
+                        }
+                        button{
+                            position: absolute;
+                            right: 10px;
+                            bottom: 10px;
+                            padding: 10px;
+                            outline: none;
+                            background-color: #FFA05F;
+                            border: none;
+                            transition: 0.2s ease;
+
+                        }
+
+                        button:hover{
+                            transform: scale(1.1);
+                            background-color: #ffb584;
+                        }
+                    }
+                }
+
+                .tour:hover{
+                    box-shadow: 0px 0px 10px rgb(96, 94, 94);
+                }
+            }
+        }
+    }
+}
