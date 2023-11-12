@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/TravelWeb/static/css/main.9d58b659.css",
-    "main.js": "/TravelWeb/static/js/main.749f3758.js",
+    "main.css": "/TravelWeb/static/css/main.a978896a.css",
+    "main.js": "/TravelWeb/static/js/main.6d71e851.js",
     "static/js/787.cda612ba.chunk.js": "/TravelWeb/static/js/787.cda612ba.chunk.js",
+    "static/media/Canada.mp4": "/TravelWeb/static/media/Canada.c716e53b65bc9b1f69d9.mp4",
+    "static/media/Japan.mp4": "/TravelWeb/static/media/Japan.0855b0a4880b55c72e51.mp4",
+    "static/media/Francis.mp4": "/TravelWeb/static/media/Francis.1509f6ea403799c17026.mp4",
     "static/media/Bali_Indonesia.mp4": "/TravelWeb/static/media/Bali_Indonesia.82796123e68ba2b7a153.mp4",
+    "static/media/img4.jpg": "/TravelWeb/static/media/img4.37e6dfa95381dfa12ecf.jpg",
+    "static/media/Terraces_VietNam.mp4": "/TravelWeb/static/media/Terraces_VietNam.fa17154c457f6ce4781c.mp4",
+    "static/media/img1.jpg": "/TravelWeb/static/media/img1.5ee570829933657dfe9f.jpg",
     "static/media/Terraces_VietNam.jpg": "/TravelWeb/static/media/Terraces_VietNam.f1524241b635e21cfc5b.jpg",
+    "static/media/img3.jpg": "/TravelWeb/static/media/img3.72eab4bd783119b41bab.jpg",
     "static/media/Singapore.jpg": "/TravelWeb/static/media/Singapore.2cd6d1140179ace66526.jpg",
+    "static/media/img2.jpg": "/TravelWeb/static/media/img2.e5686c621bc9ebd26a65.jpg",
+    "static/media/Singapore.mp4": "/TravelWeb/static/media/Singapore.7663e9aede15b628de4d.mp4",
     "static/media/Francis.jpg": "/TravelWeb/static/media/Francis.125c9739cb034d32aa89.jpg",
     "static/media/Canada.jpg": "/TravelWeb/static/media/Canada.ea4df9610f0bbc9a87b8.jpg",
     "static/media/Bali_Indonesia.jpg": "/TravelWeb/static/media/Bali_Indonesia.3d9434b57f9e6bde12cd.jpg",
+    "static/media/Japan.jpg": "/TravelWeb/static/media/Japan.00ca0457b9fae48b50b2.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/TravelWeb/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/logo.png": "/TravelWeb/static/media/logo.6b1e1ad24a520724633a.png",
     "static/media/fontawesome-webfont.eot": "/TravelWeb/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -20,12 +30,12 @@
     "static/media/slick.ttf": "/TravelWeb/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/TravelWeb/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/TravelWeb/index.html",
-    "main.9d58b659.css.map": "/TravelWeb/static/css/main.9d58b659.css.map",
-    "main.749f3758.js.map": "/TravelWeb/static/js/main.749f3758.js.map",
+    "main.a978896a.css.map": "/TravelWeb/static/css/main.a978896a.css.map",
+    "main.6d71e851.js.map": "/TravelWeb/static/js/main.6d71e851.js.map",
     "787.cda612ba.chunk.js.map": "/TravelWeb/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d58b659.css",
-    "static/js/main.749f3758.js"
+    "static/css/main.a978896a.css",
+    "static/js/main.6d71e851.js"
   ]
 }
